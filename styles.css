@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .word-display {
+    font-size: 24px;
+    margin: 20px;
+  }
+  
+  .guesses {
+    font-size: 18px;
+    margin: 10px;
+  }
+  
+  .remaining-lives {
+    font-size: 18px;
+    margin: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
